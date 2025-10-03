@@ -20,25 +20,39 @@
     }
   ],
   "screenshots": [
-  {
-    "src": "screenshot1.png",
-    "sizes": "1919x938",
-    "type": "image/png",
-    "description": "Drum Kit Home Screen Light Theme"
-  },
-  {
-    "src": "screenshot2.png",
-    "sizes": "1919x934",
-    "type": "image/png",
-    "description": "Drum Kit Home Screen Dark Theme"
-  },
-  {
-    "src": "screenshot3.png",
-    "sizes": "1916x937",
-    "type": "image/png",
-    "description": "Drum Kit How To Play Light Theme"
-  }
-], 
-"display_override": ["window-controls-overlay"], 
-"protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=%s"}] 
+    {
+      "src": "screenshot1.png",
+      "sizes": "1919x938",
+      "type": "image/png",
+      "description": "Drum Kit Home Screen Light Theme"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "1919x934",
+      "type": "image/png",
+      "description": "Drum Kit Home Screen Dark Theme"
+    },
+    {
+      "src": "screenshot3.png",
+      "sizes": "1916x937",
+      "type": "image/png",
+      "description": "Drum Kit How To Play Light Theme"
+    }
+  ],
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "mailto",
+      "url": "/newEmail?to=%s"
+    }
+  ],
+  "dir": "ltr",
+  "lang": "en",
+  "prefer_related_applications": false,
+  "categories": [
+    "entertainment",
+    "music"
+  ]
 }
